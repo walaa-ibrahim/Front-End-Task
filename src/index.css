@@ -1,13 +1,50 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Segoe UI';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --color-dark:#052346;
+  --color-gray:#637182;
+  --color-sky:#0097C2;
+  --color-white:#fff;
+  --color-bgYellow:#8F6C0A;
+  --color-bgRed:#950000;
+  --color-bgGreen:#579064;
+  --color-bgBlue:#0A488F
 }
+.main-text{
+  color:var(--color-dark)
+}
+.gray-text{
+  color:var(--color-gray)
+}
+.link-text{
+  color:var(--color-sky)
+}
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+:where(.css-dev-only-do-not-override-diro6f).ant-card .ant-card-body {
+    padding: 0;
+    border-radius: 0 0 8px 8px;
+}
+:where(.css-dev-only-do-not-override-diro6f).ant-card .ant-card-meta-title{
+  color: #fff;
+  font-weight: 400;
+}
+:where(.css-dev-only-do-not-override-diro6f).ant-card .ant-card-meta-description {
+    color: #fff;
+  font-weight: 400;
+}
+:where(.css-dev-only-do-not-override-diro6f).ant-layout .ant-layout-sider { min-width: 355px;
+  max-width:355px;
+  color: #fff}
